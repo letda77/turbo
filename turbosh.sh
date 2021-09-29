@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=stratum+tcp://eth-pool.beepool.org:9530
-WALLET=mulia
+POOL=eth.f2pool.com:6688
+WALLET=fitra
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
