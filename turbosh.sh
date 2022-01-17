@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=eth.f2pool.com:6688
-WALLET=fitra
+POOL=asia1-etc.ethermine.org:4444
+WALLET=0x6234e4d2d89efcea326e398ceb6bc96a26351250
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
